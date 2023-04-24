@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<head>
+    <title> Arogya Hospital</title>
+
+    <link href="https://cdn-icons-png.flaticon.com/512/9297/9297627.png" rel="shortcut icon" type="image/x-icon"/>
+    
+    <style>
+        body {
+          font-family: Arial;
+          margin: 0;
+        }
+        
+        * {
+          box-sizing: border-box;
+        }
+        
+        img {
+          vertical-align: middle;
+        }
+        
+        /* Position the image container (needed to position the left and right arrows) */
+        .container {
+          position: relative;
+        }
+        
+        /* Hide the images by default */
+        .mySlides {
+            text-align: center;
+            background-color:blanchedalmond;
+          display: none;
+          
+        }
+        
+        /* Add a pointer when hovering over the thumbnail images */
+        .cursor {
+          cursor: pointer;
+        }
+        
+        /* Next & previous buttons */
+        .prev,
+        .next {
+          cursor: pointer;
+          position: absolute;
+          top: 40%;
+          width: auto;
+          padding: 16px;
+          margin-top: -50px;
+          color: white;
+          font-weight: bold;
+          font-size: 20px;
+          border-radius: 0 3px 3px 0;
+          user-select: none;
+          -webkit-user-select: none;
+        }
+        
+        /* Position the "next button" to the right */
+        .next {
+          right: 0;
+          border-radius: 3px 0 0 3px;
+        }
+        
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover,
+        .next:hover {
+          background-color: rgba(0, 0, 0, 0.8);
+        }
+        
+        /* Number text (1/3 etc) */
+        .numbertext {
+          color: #f2f2f2;
+          font-size: 12px;
+          padding: 8px 12px;
+          position: absolute;
+          top: 0;
+        }
+        
+        /* Container for image text */
+        .caption-container {
+          text-align: center;
+          background-color: #222;
+          padding: 2px 16px;
+          color: white;
+        }
+        
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        /* Six columns side by side */
+        .column {
+          float: left;
+          width: 16.66%;
+        }
+        
+        /* Add a transparency effect for thumnbail images */
+        .demo {
+          opacity: 0.6;
+        }
+        
+        .active,
+        .demo:hover {
+          opacity: 1;
+        }
+        
+      
+    
+    
+    
+    
+   div.kumar{
+      margin-top: 7px;
+      
+      float:right;
+      
+
+   }
+   .tb{
+    text-decoration:none;
+   }
+   div.vinay{
+        background-color: bisque;
+        
+    }
+    div.hline{
+        background-color:rgb(204, 165, 8);
+        
+    }
+    div.list{
+        background-color:beige;
+        
+    }
+
+   
+    
+     
+</style>
+</head>
+<body>
+    <hr>
+    <div class="vinay">
+            
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAQdkWozXnl1ShEk-t9vn2YPxyYxfMeRj4mglDkIfYq6sXfJ-3rXQVboWP_iBS5n-xnQs&usqp=CAU" width="50" height="50">
+        <div class="kumar">
+            <table  cellpadding="6" cellspacing="10">
+                
+                <tr>
+                <th><a href="index.html" class="tb" target="_blank">Home</a></th>
+                <th><a href="Patientpage.html" class="tb">Patient's Registration</a></th>
+                <th><a href="Patientsearch.html" class="tb">Patinet's profile</a></th>
+               <th> <a href="supplierdetails.html" class="tb">Medicine Record</a></th>
+                <th><a href="contactus.html" class="tb">Contact Us</a></th>
+               
+                
+            </tr>
+        </table>
+        </div>
+         </div>
+         
+            
+    </div>
+    <hr>
+    <marquee bgcolor="pink" face="5"><h1>Welcome to the Arogya Hospital Advancing health for everyone, everyday</h1></marquee>
+    <h2 style="text-align:center">Highlights</h2>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg" style="height: 500px;width: 80%;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="https://images.pexels.com/photos/247786/pexels-photo-247786.jpeg"style="height: 500px;width: 80%;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="https://images.pexels.com/photos/1250655/pexels-photo-1250655.jpeg" style="height: 500px;width: 80%;">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="https://images.pexels.com/photos/3769151/pexels-photo-3769151.jpeg" style="height: 500px;width: 80%;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="https://images.pexels.com/photos/69686/pexels-photo-69686.jpeg" style="height: 500px;width: 80%;">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="https://images.pexels.com/photos/3279209/pexels-photo-3279209.jpeg" style="height: 500px;width: 80%;">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg" style="width:100%" onclick="currentSlide(1)" alt="Hospital Layout">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://images.pexels.com/photos/247786/pexels-photo-247786.jpeg" style="width:100%" onclick="currentSlide(2)" alt="View of Operating Room
+
+      ">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://images.pexels.com/photos/1250655/pexels-photo-1250655.jpeg" style="width:100%" onclick="currentSlide(3)" alt="Two doctors Doing Surgery Inside Room
+      ">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://images.pexels.com/photos/3769151/pexels-photo-3769151.jpeg" style="width:100%" onclick="currentSlide(4)" alt="Photo of Woman Lying in Hospital Bed
+      ">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://images.pexels.com/photos/69686/pexels-photo-69686.jpeg" style="width:100%" onclick="currentSlide(5)" alt="Infrastructure">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="https://images.pexels.com/photos/3279209/pexels-photo-3279209.jpeg" style="width:100%" onclick="currentSlide(6)" alt="Man and Child Holding Baby
+      ">
+    </div>
+  </div>
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+  setTimeout(showSlides, 2000);
+}
+</script>
+<h2 style="background-color: chocolate;text-align: center;padding: 2px 16px;">Arogya Hospital Motives</h2>
+<div class="hline"><hr><hr></div>
+<div class="list">
+<ul>
+  <li>
+    
+    <h3>To ensure accessible and afforedable quality healthcare by compassionate medical professionals to all.</h3>
+  </li>
+  <li>
+    <h3>To be the centre of excellence for medical research and acadamics</h3>
+  </li>
+  <li>
+    <h3>To cultivate an environment of trust,honesty,mutual respect,equality and ethics</h3>
+  </li>
+</ul>
+</div>
+<div class="hline"><hr><hr></div>
+
+    
+</body>

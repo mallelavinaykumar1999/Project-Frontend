@@ -1,0 +1,248 @@
+<html>
+<head>
+<link href="https://cdn-icons-png.flaticon.com/512/9297/9297627.png" rel="shortcut icon" type="image/x-icon"/>
+<title>Patient Details</title>
+
+<style>
+body{
+background-image: url("https://img.freepik.com/free-photo/blur-hospital_1203-7972.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
+background-attachment:fixed;
+}
+.div1{
+border:2px solid purple;
+background-color: purple;
+border-radius: 5px;
+text-decoration:none;
+color:white;
+}
+
+fieldset{
+margin-left:380px;
+margin-right:380px;
+font-size: 20px;
+border:2px solid black;
+border-radius:20px;
+
+padding-left:75px;
+
+}
+.head{
+border:2px solid brown;
+text-align: center;
+margin-left: 375px;
+ margin-right: 375px;
+border-radius: 15px;
+background-color: darkseagreen;
+
+}
+legend{
+border:2px solid brown;
+text-align: center;
+
+}
+.input-field {
+  width: 240px;
+  height: 22px;
+border-radius:5px;
+}
+td{
+/*
+color:purple;*/
+font-size: 20px;
+
+}
+textarea{
+border-radius:10px;
+border:1.6px solid black;
+}
+button{
+font-size: 20px;
+}
+</style>
+</head>
+<body>
+    <a class="div1" href="index.html">HOME</a>
+    <h2 class="head">Patient details</h2><br>
+<fieldset>
+
+
+<table cellspacing="40"><tr>
+    <td><label>Patient Name * </label></td>
+    <td>:</td>
+
+<td><input type="text" class="input-field" required></td>
+</tr>
+<tr>
+<td><label>Patient Age </label></td>
+<td>:</td>
+<td><input type="number" min="1" max="100" class="input-field"></td>
+</tr>
+<tr>
+<td><label for="gender">Gender </label></td>
+<td>:</td>
+<td><input type="radio" id="male" name="gender" value="male">
+<label>Male</label>
+<input type="radio" id="female" name="gender" value="female">
+<label>Female</label>
+<input type="radio" id="female" name="gender" value="female">
+<label>Others</label></td>
+</tr>
+
+<tr>
+<td><label>Contact Number </label></td>
+<td>:</td>
+<td><input type="number" class="input-field"></td>
+</tr>
+<tr>
+<td><label>Alternate Number </label></td>
+<td>:</td>
+<td><input type="number" class="input-field"></td>
+</tr>
+<tr>
+<td><label>Aadhar Number </label></td>
+<td>:</td>
+<td><input type="text" class="input-field"></td>
+</tr>
+
+
+<tr>
+<td>Address </td>
+<td>:</td>
+<td><textarea id="address" name="address" rows="10" cols="30"></textarea></td>
+</tr>
+</table>
+<br></fieldset><br><br>
+<h2 class="head">Gaurdian details</h2><br>
+<fieldset>
+
+
+<table cellspacing="40"><tr>
+    <td><label>Name * </label></td>
+    <td>:</td>
+
+<td><input type="text" class="input-field" required></td>
+</tr>
+<tr>
+<td><label>Age </label></td>
+<td>:</td>
+<td><input type="number" min="1" max="100" class="input-field"></td>
+</tr>
+<tr>
+<td><label for="gender">Gender </label></td>
+<td>:</td>
+<td><input type="radio" id="male" name="gender" value="male">
+<label>Male</label>
+<input type="radio" id="female" name="gender" value="female">
+<label>Female</label>
+<input type="radio" id="female" name="gender" value="female">
+<label>Others</label></td>
+</tr>
+
+<tr>
+<td><label>Contact Number </label></td>
+<td>:</td>
+<td><input type="number" class="input-field"></td>
+</tr>
+<tr>
+<td><label>Alternate Number </label></td>
+<td>:</td>
+<td><input type="number" class="input-field"></td>
+</tr>
+<tr>
+<td><label>Aadhar Number </label></td>
+<td>:</td>
+<td><input type="text" class="input-field"></td>
+</tr>
+
+
+<tr>
+<td>Address </td>
+<td>:</td>
+<td><textarea id="address" name="address" rows="10" cols="30"></textarea></td>
+</tr>
+</table>
+<br></fieldset><br><br>
+<h2 class="head">COVID19 details</h2><br>
+<fieldset>
+
+<table cellspacing="35">
+    <tr>
+<td><label> Did he/she travel in last month? </label></td>
+<td>:</td>
+<td>
+<select>
+<option>Yes</option>
+<option>No</option>
+</select>
+</td>
+</tr>
+<tr>
+<td><label>Vaccine Dose </label></td>
+<td>:</td>
+<td><select>
+<option>1</option>
+<option>2</option>
+</select></td>
+</tr>
+<tr>
+<td><label>Gender </label></td>
+<td>:</td>
+<td><input type="radio" id="male" name="gender" value="male">
+<label>Male</label>
+<input type="radio" id="female" name="gender" value="female">
+<label>Female</label></td>
+</tr>
+<tr>
+<td><label>Date of last dose</label></td>
+<td>:</td>
+<td><input type="date"></td>
+</tr>
+<tr>
+<td><label>Date of last Covid test </label></td>
+<td>:</td>
+<td><input type="date"></td>
+</tr>
+<tr>
+<td><label>Is patient showing any symptoms? </label></td>
+<td>:</td>
+<td><select>
+<option>Yes</option>
+<option>No</option>
+</select></td>
+</tr>
+</table></fieldset><br><br>
+<h2 class="head">Health Insurance Details</h2><br>
+<fieldset>
+
+<table cellspacing="35">
+    <tr>
+<td><label>Insurance membership </label></td>
+<td>:</td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><label>Insurance number </label></td>
+<td>:</td>
+<td><input type="text"></td>
+</tr>
+</table></fieldset><br><br>
+<h2 class="head">Patient Joining Details</h2><br>
+<fieldset>
+<table cellspacing="43">
+    <tr>
+<td><label>Date of Admission </label></td>
+<td>:</td>
+<td><input type="date"></td></tr>
+<tr>
+<td><label>Time of Admission </label></td>
+<td>:</td>
+<td><input type="time"></td>
+</tr>
+</table></fieldset><br><br>
+<div style="text-align:center">
+<button type="submit">Submit</button>
+</div>
+</body>
+</html>
